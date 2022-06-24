@@ -1,17 +1,18 @@
 const express = require('express');
 
-const flightsRouter = express.Router();
 const {
     httpGetAllFlights,
     httpAddNewFlight,
     httpEditFlight,
-    httpAbortFlight,
+    httpDeleteFlight,
 } = require('../controllers/flight.controller');
+
+const flightsRouter = express.Router();
 
 flightsRouter.get('/', httpGetAllFlights);
 flightsRouter.post('/', httpAddNewFlight);
 flightsRouter.put('/:id', httpEditFlight);
-flightsRouter.delete('/:id', httpAbortFlight);
+flightsRouter.delete('/:id', httpDeleteFlight);
 
 module.exports = flightsRouter;
 

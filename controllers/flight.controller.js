@@ -70,7 +70,7 @@ function httpEditFlight(req, res) {
     return res.status(201).json(flight);
 }
 
-function httpdeleteFlight(req, res) {
+function httpDeleteFlight(req, res) {
     const flightId = Number(req.params.id)
 
     //check for invalid flight
@@ -92,5 +92,5 @@ module.exports = {
     httpGetAllFlights,
     httpAddNewFlight,
     httpEditFlight,
-    httpdeleteFlight,
+    httpDeleteFlight,
 }
