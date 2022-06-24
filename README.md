@@ -25,7 +25,8 @@ A REST API that has the following features
 - Server.js file lives in the src folder
 
 ### A flight should have the following properties:
-  
+
+- flightId: 100 (Any),
 - title: "flight to canada",
 - time: 1pm,
 - price: 26000,
