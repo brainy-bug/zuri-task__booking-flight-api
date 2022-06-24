@@ -25,11 +25,10 @@ A REST API that has the following features
 - Server.js file lives in the src folder
 
 ### A flight should have the following properties:
-  {
-    title: "flight to canada",
-    time: 1pm,
-    price: 26000,
-    date: "26-06-2022"
-  }
+  
+- title: "flight to canada",
+- time: 1pm,
+- price: 26000,
+- date: "26-06-2022"
 
 ------------
