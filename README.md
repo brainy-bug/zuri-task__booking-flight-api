@@ -1,4 +1,4 @@
-# zuri-task__booking-flight-api
+# booking-flight-api
 
 ## Brief description
 
